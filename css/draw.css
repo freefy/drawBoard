@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+    outline:none;
+}
+html,body{
+    width:100%;
+    height:100%;
+    background:radial-gradient(circle at center,rgb(69, 218, 106),rgb(95, 198, 224));
+    overflow:hidden;
+}
+.wrapper{
+    margin:10px 10px;
+}
+.wrapper canvas{
+   border:1px solid blue;
+   border-radius:10px;
+   background-color:#fff;
+   box-shadow:5px 5px 5px rgb(43, 40, 40);
+}
+.wrapper .btn-list {
+   width:600px;
+   text-align:center;
+}
+.wrapper .btn-list li{
+   display:inline-block;
+   margin-left:30px;
+}
+input{
+   display:inline-block;
+   padding:5px 10px;
+}
